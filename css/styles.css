@@ -1,0 +1,75 @@
+/* Main header color: #212121 */
+/* Secondary color: #757575 */
+/* Accent color: #2196F3 */
+/* White color main: #FFFFFF */
+/* White color second: rgba(255, 255, 255, 0.6) */
+
+/* Declaration of variables for main colors */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+/* General rules for colors(body) */
+.page {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+}
+
+/* Page logo */
+.logo {
+    color: #000000;
+}
+
+.logo span {
+    color: var(--accent-color);
+}
+
+/* Navigation section */
+.list {
+    list-style: none;
+}
+
+.nav {
+    color: var(--title-text-color);
+}
+
+.nav .link:hover,
+.nav .link:focus {
+    color: var(--accent-color)
+}
+
+.nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Section mail and phone contacts */
+.mailto {
+    color: var(--accent-color);
+}
+
+.telto {
+    color: var(--primary-text-color);
+}
+
+/* Section's headers style */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Advantages headers */
+.advantage-list .title {
+    color: var(--title-text-color);
+}
+
+/* Our team */
+.section .title {
+    color: var(--title-text-color);
+}
+
+/* Button on Hero section */
+.button {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
