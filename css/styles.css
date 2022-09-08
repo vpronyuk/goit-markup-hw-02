@@ -6,70 +6,69 @@
 
 /* Declaration of variables for main colors */
 :root {
-    --primary-text-color: #757575;
-    --title-text-color: #212121;
-    --accent-color: #2196F3;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
 }
 
 /* General rules for colors(body) */
 .page {
-    background-color: #FFFFFF;
-    color: var(--primary-text-color);
+  background-color: #ffffff;
+  color: var(--primary-text-color);
 }
 
 /* Page logo */
 .logo {
-    color: #000000;
+  color: #000000;
 }
 
 .logo span {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* Navigation section */
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .nav {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 .nav .link:hover,
 .nav .link:focus {
-    color: var(--accent-color)
+  color: var(--accent-color);
 }
-
-.nav .link.current {
+/* .nav .link.current {
     color: var(--accent-color);
-}
+} */
 
 /* Section mail and phone contacts */
 .mailto {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .telto {
-    color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 /* Section's headers style */
 .section-title {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 /* Advantages headers */
 .advantage-list .title {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 /* Our team */
 .section .title {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 /* Button on Hero section */
 .button {
-    background-color: var(--accent-color);
-    color: #FFFFFF;
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
