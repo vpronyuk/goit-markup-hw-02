@@ -31,7 +31,7 @@
   list-style: none;
 }
 
-.nav {
+.nav .link {
   color: var(--title-text-color);
 }
 
@@ -39,9 +39,9 @@
 .nav .link:focus {
   color: var(--accent-color);
 }
-/* .nav .link.current {
-    color: var(--accent-color);
-} */
+.nav .link.current {
+  color: var(--accent-color);
+}
 
 /* Section mail and phone contacts */
 .mailto {
@@ -63,7 +63,11 @@
 }
 
 /* Our team */
-.section .title {
+/* .section-title { */
+/* color: var(--title-text-color); */
+/* } */
+
+.team-list .title {
   color: var(--title-text-color);
 }
 
@@ -71,4 +75,10 @@
 .button {
   background-color: var(--accent-color);
   color: #ffffff;
+}
+/* Here will be added color and background color for hero section */
+
+/* should be corrected - footer ul */
+.footer-list {
+  color: rgba(255, 255, 255, 0.6);
 }
