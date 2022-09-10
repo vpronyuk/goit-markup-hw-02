@@ -79,6 +79,18 @@
 /* Here will be added color and background color for hero section */
 
 /* should be corrected - footer ul */
-.footer-list {
-  color: rgba(255, 255, 255, 0.6);
+.footer-logo span {
+  color: var(--accent-color);
+}
+
+.footer-logo {
+  color: #ffffff;
+  /* temporary solution */
+  background-color: #2f303a;
+}
+
+.footer-list .footer-address {
+  color: #ffffff;
+  /* temporary solution */
+  background-color: #2f303a;
 }
