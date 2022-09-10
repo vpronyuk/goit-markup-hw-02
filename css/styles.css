@@ -94,3 +94,14 @@
   /* temporary solution */
   background-color: #2f303a;
 }
+
+/* Portfolio buttons */
+.portfolio-button {
+  background-color: #f5f4fa;
+}
+
+.portfolio-button:focus,
+.portfolio-button:hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
