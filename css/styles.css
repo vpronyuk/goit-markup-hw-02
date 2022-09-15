@@ -41,6 +41,9 @@ body {
   text-decoration: none;
   color: var(--primary-title-color);
 }
+.active-page {
+  color: var(--accent-color);
+}
 .header-list-item:hover,
 .header-list-item:focus {
   color: var(--accent-color);
