@@ -1,3 +1,5 @@
+/* --------General styles-------- */
+
 :root {
   --primary-text-color: #757575;
   --primary-title-color: #212121;
@@ -12,9 +14,9 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--primary-text-color);
   font-size: 14px;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
   background-color: var(--primary-white-color);
 }
 
@@ -35,7 +37,9 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* ---------Header--------- */
+
+/* --------Header-------- */
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -50,26 +54,28 @@ body {
 }
 
 .header-list-item {
-  text-decoration: none;
-  color: var(--primary-title-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--primary-title-color);
+  text-decoration: none;
 }
+
 .active-page {
   color: var(--accent-color);
 }
+
 .header-list-item:hover,
 .header-list-item:focus {
   color: var(--accent-color);
 }
 
 .header-adress-list-item {
-  text-decoration: none;
-  color: inherit;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: inherit;
+  text-decoration: none;
 }
 
 .header-adress-list-item:hover,
@@ -77,94 +83,106 @@ body {
   color: var(--accent-color);
 }
 
-/* ---------Section Hero--------- */
+/* --------Section Hero-------- */
+
 .hero {
   background-color: var(--dark-bg-color);
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: var(--primary-white-color);
+  text-align: center;
+  text-transform: uppercase;
 }
+
 .hero-button {
-  background-color: var(--accent-color);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
+  text-align: center;
+  background-color: var(--accent-color);
   cursor: pointer;
   border-color: transparent;
   border-radius: 4px;
 }
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--interactive-btn-color);
 }
-/* ---------Section Feature--------- */
+
+/* --------Section Feature-------- */
 
 .feature-list-text {
   line-height: 1.71;
 }
+
 .feature-subtitle {
   font-weight: 700;
   font-size: inherit;
   line-height: 1.14;
-  text-transform: uppercase;
   color: var(--primary-title-color);
+  text-transform: uppercase;
 }
 
-/* ---------Section Activity--------- */
+/* --------Section Activity-------- */
 
 .activity-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   color: var(--primary-title-color);
+  text-align: center;
 }
 
-/* ---------Section Our team--------- */
+/* --------Section Our team-------- */
+
 .team {
   background-color: var(--grey-bg-color);
 }
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   color: var(--primary-title-color);
+  text-align: center;
 }
 
 .team-card {
-  background-color: var(--primary-white-color);
   width: 270px;
   height: 368px;
+  background-color: var(--primary-white-color);
 }
+
 .team-member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   color: var(--primary-title-color);
+  text-align: center;
 }
+
 .team-role {
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   color: inherit;
+  text-align: center;
 }
 
-/* ---------Footer--------- */
+/* --------Footer-------- */
+
 .footer {
   background-color: var(--dark-bg-color);
 }
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -173,6 +191,7 @@ body {
   color: var(--accent-color);
   text-decoration: none;
 }
+
 .footer-logo-decoration {
   color: var(--primary-white-color);
 }
@@ -180,14 +199,15 @@ body {
 .footer-address-link {
   font-style: normal;
   color: var(--footer-link-color);
-  text-decoration: none;
   line-height: 1.71;
+  text-decoration: none;
 }
+
 .footer-map {
   font-style: normal;
+  line-height: 1.71;
   color: var(--primary-white-color);
   text-decoration: none;
-  line-height: 1.71;
 }
 
 .footer-address-link:hover,
@@ -197,31 +217,33 @@ body {
   color: var(--accent-color);
 }
 
-/* ---------Portfolio page--------- */
+/* --------Portfolio page-------- */
 
 .radiobutton-list-item {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: inherit;
   color: var(--primary-title-color);
+  text-align: center;
   background-color: var(--grey-bg-color);
   cursor: pointer;
   border-color: transparent;
   border-radius: 4px;
 }
+
 .radiobutton-list-item:hover,
 .radiobutton-list-item:focus {
-  background-color: var(--accent-color);
   color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 .cards-link {
-  text-decoration: none;
   color: inherit;
+  text-decoration: none;
 }
+
 .cards-title {
   font-weight: 700;
   font-size: 18px;
@@ -230,6 +252,7 @@ body {
   color: var(--primary-title-color);
   text-decoration: none;
 }
+
 .cards-text {
   font-size: 16px;
   line-height: 1.87;
